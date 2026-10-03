@@ -100,16 +100,32 @@ a:hover {
     align-content: center;
     padding: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .home {
+        width: 300px;
+    }
+
+    .webrings {
+        font-size: 13px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
 .RGB {
     margin: auto;
     margin-top: 10px;
 }
 .webrings {
     border: 2px solid #3b4020;
-    width: 500px;
-    display: flex;
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex-row;
     justify-self: center;
     position: absolute;
     bottom: 0;
     margin-top: 800px;
 }
+
