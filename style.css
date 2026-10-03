@@ -1,0 +1,115 @@
+.main {
+    width: 800px;
+    height: 700px;
+    background-color: darkkhaki;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+.center {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.spin {
+    animation: spin 4s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('images/background.png');
+}
+footer {
+    bottom: 0px;
+    font-size: 0.8em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+.about {
+    text-align: center;
+    align-content: center;
+}
+.cntabt {
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    background-color: darkkhaki;
+}
+.abtme {
+    display: block;
+    margin: auto;
+}
+.update {
+    width: 800px;
+    height: 700px;
+    background-color: darkkhaki;
+    padding: 20px;
+}
+.blog {
+    width: 700px;
+    height: 400px;
+    overflow: auto;
+    border: 2px solid #3b4020;
+}
+.home {
+    width: 1000px;
+    height: 900px;
+    background-color: darkkhaki;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+#back {
+    margin-top: 50px;
+}
+.footer {
+    margin-top: 70px;
+    font-size: 15px;
+}
+.homecont {
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    color: white;
+    background-color: #3b4020;
+    text-align: center;
+    align-content: center;
+}
+.wel {
+    font-size: 3em;
+}
+.main2 {
+    width: 700px;
+    height: 700px;
+    background-color: darkkhaki;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+.RGB {
+    margin: auto;
+    margin-top: 10px;
+}
+.webrings {
+    border: 2px solid #3b4020;
+    width: 500px;
+    display: flex;
+    justify-self: center;
+    position: absolute;
+    bottom: 0;
+    margin-top: 800px;
+}
