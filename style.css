@@ -42,6 +42,18 @@ a:hover {
 .about {
     text-align: center;
     align-content: center;
+    width: 600px;
+}
+@media screen and (max-width: 600px) {
+    .main {
+        width: 100%;
+    }
+    .cntabt p {
+        width: 300px;
+    }
+    .about {
+        width: 100%;
+    }
 }
 .cntabt {
     width: 600px;
@@ -62,14 +74,13 @@ a:hover {
 .blog {
     width: 700px;
     height: 400px;
-    overflow: auto;
+    overflow: scroll;
     border: 2px solid #3b4020;
 }
 .home {
     width: 1000px;
     height: 900px;
     background-color: darkkhaki;
-    text-align: center;
     align-content: center;
     padding: 20px;
 }
@@ -101,18 +112,30 @@ a:hover {
     padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .home {
         width: 300px;
     }
-
+    p {
+        width: 300px;
+    }
     .webrings {
         font-size: 13px;
         padding-right: 5px;
         padding-left: 5px;
     }
+    .cntabt {
+        width: 300px;
+    }
 }
-
+@media screen and (max-width: 700px) {
+    .update {
+        width: 350px;
+    }
+    .blog {
+        width: 350px;
+    }
+}
 .RGB {
     margin: auto;
     margin-top: 10px;
@@ -128,4 +151,15 @@ a:hover {
     bottom: 0;
     margin-top: 800px;
 }
-
+.article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.welcome {
+    width: 900px;
+    height: 800px;
+    margin: auto;
+}
+ul {
+    align-items: left;
+}
