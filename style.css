@@ -115,6 +115,9 @@ a:hover {
     .home {
         width: 300px;
     }
+    .home img {
+        width: 100px;
+    }
     p {
         width: 300px;
     }
